@@ -2,7 +2,7 @@ function carregar() {
     var msg = document.getElementById('msg')
     var img = document.getElementById('imagem')
     var data = new Date()
-    var hora = data.getHours() + '0:0' + data.getMinutes()
+    var hora = data.getHours() + ':' + data.getMinutes()
     
     const relogio = setInterval(carregar,1)
 
