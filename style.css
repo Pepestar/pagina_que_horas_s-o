@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: rgba(8, 124, 218, 0.747);
     font: normal 15pt arial;
@@ -16,7 +21,7 @@ section {
     padding: 15px;
     width: 500px;
     margin: auto;
-    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+    box-shadow: -4px 3px 0 #222, -4px 6px 0 #000;
     padding: 60px;
 
 }
