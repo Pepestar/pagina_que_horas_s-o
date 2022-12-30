@@ -2,14 +2,14 @@ function carregar() {
     var msg = document.getElementById('msg')
     var img = document.getElementById('imagem')
     var data = new Date()
-    var hora = data.getHours() + ':' + data.getMinutes()
+    var hora = data.getHours() + '0:0' + data.getMinutes()
     
     const relogio = setInterval(carregar,1)
 
      msg.innerHTML = `Agora são: ${hora} horas.`
 
 
-if(hora >= 0 && hora < 12) {
+if(hora >= 0 && hora < 12 ) {
     // BOM DIA!
     img.src = 'fotomanha.jpeg'
     document.body.style.background = "#e2cd9f"
