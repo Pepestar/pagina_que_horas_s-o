@@ -11,7 +11,7 @@ if(h >= 0  && h < 12 ) {
     // BOM DIA!
     img.src = 'fotomanha.jpeg'
     document.body.style.background = "#e2cd9f"
-} else if (h >= 12 && h <= 18) {
+} else if (h >= 12 && h < 18) {
     //BoA TARDE!
     img.src = 'fototarde.jpeg'
     document.body.style.background = "#6b84ad"
